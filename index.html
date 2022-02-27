@@ -15,8 +15,8 @@
 	</head>
 	<body>
 		<!-- intro -->
-		<div class="text-white text-center" style="background-color: #350d4c">
-			<div class="container-fluid d-flex justify-content-center">
+		<div id="intro" class="text-white text-center" style="background: #350d4c url('/img/home/flying2.png') no-repeat center bottom; background-size: cover">
+			<div class="container-fluid d-flex justify-content-start justify-content-lg-center position-absolute top-0 start-0 end-0">
 				<nav class="navbar navbar-expand-lg navbar-dark bg-primary rounded-bottom">
 					<div class="container-fluid">
 						<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,24 +42,28 @@
 				</nav>
 			</div>
 
-			<div class="container py-5">
-				<h1 class="display-1 fw-bold">PoniGame</h1>
-				<p class="lead">Social MMORPG with Ponies</p>
-				<button class="btn btn-secondary fw-bold">Beta test now</button>
+			<div class="container py-5 d-flex h-100 justify-content-center align-items-center">
+				<div>
+					<h1 class="display-1 fw-bold">PoniGame</h1>
+					<p class="lead">Social MMORPG with Ponies</p>
+					<button class="btn btn-secondary fw-bold">Beta test now</button>
+				</div>
 			</div>
 		</div>
 		<!-- /end intro -->
 
 		<!-- mission statement -->
-		<div class="py-5">
+		<div class="home-section bg-primary text-white" style="background: url('/img/home/glitter.jpg') no-repeat center center; background-size: cover">
 			<div class="container">
 				<div class="row">
-					<div class="col">
+					<div class="col-md mb-2 mb-md-0">
 						<iframe width="100%" height="350" src="https://www.youtube-nocookie.com/embed/uBfEdeT5llU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					</div>
-					<div class="col">
-						<p>PoniGame aspires to be a free-to-play Sandbox MMO game that combines multiplayer RPG components with socialization features, to allow players to collaborate with each other to advance their friendship levels.</p>
-						<p>Players will also be given tools to interact with the world around them, from levitating objects through magix spells, to the ability to build structures and fly!</p>
+					<div class="col-md d-flex align-items-center">
+						<div class="ms-md-4">
+							<p>PoniGame aspires to be a free-to-play Sandbox MMO game that combines multiplayer RPG components with socialization features, to allow players to collaborate with each other to advance their friendship levels.</p>
+							<p>Players will also be given tools to interact with the world around them, from levitating objects through magix spells, to the ability to build structures and fly!</p>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -67,7 +71,7 @@
 		<!-- /end mission statement -->
 
 		<!-- blog -->
-		<div class="py-5 text-white" style="background-color: #350d4c">
+		<div class="home-section text-white" style="background: #350d4c url('/img/home/dev2.png') no-repeat center center; background-size: cover">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6">
@@ -84,7 +88,7 @@
 		<div class="py-5 bg-primary text-white">
 			<div class="container">
 				<div class="row justify-content-end">
-					<div class="col-md-4">
+					<div class="col-md-6 col-lg-5 col-xl-4">
 						<h2>Contact Us</h2>
 						<p>Have any questions? Let us know!</p>
 						<form class="text-dark">
@@ -113,16 +117,18 @@
 		<!-- /end contact -->
 
 		<!-- footer -->
-		<footer class="py-5">
+		<footer class="home-section" style="background: url('/img/home/unicorn_in_snow.png') no-repeat center center; background-size: cover">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-4">
-						<p class="mb-1">Follow us on Twitter for updates!</p>
-						<button class="btn btn-lg btn-light fw-bold">@PoniGame <i class="bi bi-twitter"></i></button>
+						<p class="mb-1 fw-bold">Follow us on Twitter for updates!</p>
+						<a href="https://twitter.com/ponigame" target="_blank" rel="noopener">
+							<button class="btn btn-lg btn-light fw-bold">@PoniGame <i class="bi bi-twitter"></i></button>
+						</a>
 
-						<p class="mt-4 mb-1"><b>&copy; 2018-2022 PoniGame Team.</b></p>
-						<p class="mb-1">PoniGame is not affiliated with Hasbro or DHX media.</p>
-						<p>All trademarks and copyrights belong to their respective owners.</p>
+						<p class="mt-5 mb-1"><i>&copy; 2018-2022 PoniGame Team.</i></p>
+						<p class="mb-1 small">PoniGame is not affiliated with Hasbro or DHX media.</p>
+						<p class="small">All trademarks and copyrights belong to their respective owners.</p>
 					</div>
 				</div>
 			</div>

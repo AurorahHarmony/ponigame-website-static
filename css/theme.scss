@@ -12,7 +12,7 @@ $font-family-base: 'Dosis', sans-serif;
 $font-size-base: 1.3rem;
 
 // Navbar overrides
-// $navbar-nav-link-padding-x: 1rem;
+$navbar-nav-link-padding-x: 1rem;
 // $navbar-light-color: rgba($primary, 0.55);
 // $navbar-light-hover-color: rgba($primary, 0.8);
 // $navbar-light-active-color: rgba($primary, 0.9);
@@ -23,20 +23,32 @@ $btn-border-radius: 0.7rem;
 $btn-border-radius-lg: 0.9rem;
 // $btn-border-radius-sm: 0.35rem;
 
-// $form-label-margin-bottom: 0.25rem;
-
-// $card-border-width: 0;
-// $border-radius: 0.5rem;
-
-// $blockquote-footer-color: $text-muted;
+$form-floating-input-padding-t: 1.1rem;
+$form-floating-label-transform: scale(0.65) translateY(-0.5rem) translateX(0.4rem);
 
 //-- Include remainder of required Bootstrap stylesheets
 @import '../node_modules/bootstrap/scss/variables';
 @import '../node_modules/bootstrap/scss/mixins';
 
-// $navbar-padding-y: $spacer * 0.8;
+$form-floating-height: add(3rem, $input-height-border);
+// $navbar-padding-y: $spacer * 0.6;
 
 //-- Include any optional Bootstrap components as you like
 @import '../node_modules/bootstrap/scss/bootstrap';
 
 //-- Add additional custom code here
+
+#intro {
+	min-height: 500px;
+	height: 75vh;
+}
+
+.home-section {
+	padding-top: 12rem;
+	padding-bottom: 12rem;
+}
+
+// Form Labels
+.form-floating > label {
+	padding: 0.5rem 0.75rem;
+}
