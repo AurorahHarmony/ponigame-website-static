@@ -9,10 +9,127 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
 
 		<link rel="stylesheet" href="/css/theme.min.css" />
 	</head>
 	<body>
-		Hello World
+		<!-- intro -->
+		<div class="text-white text-center" style="background-color: #350d4c">
+			<div class="container-fluid d-flex justify-content-center">
+				<nav class="navbar navbar-expand-lg navbar-dark bg-primary rounded-bottom">
+					<div class="container-fluid">
+						<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+							<ul class="navbar-nav">
+								<li class="nav-item">
+									<a class="nav-link active" aria-current="page" href="#">Home</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Play</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Development</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Help</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+
+			<div class="container py-5">
+				<h1 class="display-1 fw-bold">PoniGame</h1>
+				<p class="lead">Social MMORPG with Ponies</p>
+				<button class="btn btn-secondary fw-bold">Beta test now</button>
+			</div>
+		</div>
+		<!-- /end intro -->
+
+		<!-- mission statement -->
+		<div class="py-5">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<iframe width="100%" height="350" src="https://www.youtube-nocookie.com/embed/uBfEdeT5llU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<div class="col">
+						<p>PoniGame aspires to be a free-to-play Sandbox MMO game that combines multiplayer RPG components with socialization features, to allow players to collaborate with each other to advance their friendship levels.</p>
+						<p>Players will also be given tools to interact with the world around them, from levitating objects through magix spells, to the ability to build structures and fly!</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /end mission statement -->
+
+		<!-- blog -->
+		<div class="py-5 text-white" style="background-color: #350d4c">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<h2>Development is in full swing!</h2>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius fuga perferendis, sunt earum maiores quae eligendi vel est neque mollitia eaque repudiandae amet maxime corporis repellendus delectus magni, omnis quia!</p>
+						<button class="btn btn-secondary fw-bold">Follow our blog</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /end blog -->
+
+		<!-- contact -->
+		<div class="py-5 bg-primary text-white">
+			<div class="container">
+				<div class="row justify-content-end">
+					<div class="col-md-4">
+						<h2>Contact Us</h2>
+						<p>Have any questions? Let us know!</p>
+						<form class="text-dark">
+							<div class="form-floating mb-3">
+								<input type="text" class="form-control" id="name" placeholder="name" required />
+								<label for="name">Name</label>
+							</div>
+							<div class="form-floating mb-3">
+								<input type="email" class="form-control" id="email" placeholder="name@example.com" required />
+								<label for="email">Email address</label>
+							</div>
+							<div class="form-floating mb-3">
+								<input type="text" class="form-control" id="subject" placeholder="subject" required />
+								<label for="subject">Subject</label>
+							</div>
+							<div class="form-floating mb-3">
+								<textarea class="form-control" id="message" placeholder="Your message" style="height: 250px" required></textarea>
+								<label for="message">Message</label>
+							</div>
+							<button type="submit" class="btn btn-secondary w-100 fw-bold">Send <i class="bi bi-send-fill"></i></button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /end contact -->
+
+		<!-- footer -->
+		<footer class="py-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<p class="mb-1">Follow us on Twitter for updates!</p>
+						<button class="btn btn-lg btn-light fw-bold">@PoniGame <i class="bi bi-twitter"></i></button>
+
+						<p class="mt-4 mb-1"><b>&copy; 2018-2022 PoniGame Team.</b></p>
+						<p class="mb-1">PoniGame is not affiliated with Hasbro or DHX media.</p>
+						<p>All trademarks and copyrights belong to their respective owners.</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- /end footer -->
 	</body>
+
+	<!-- JavaScript Bundle with Popper -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </html>
