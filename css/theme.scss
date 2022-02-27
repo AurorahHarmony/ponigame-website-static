@@ -1,0 +1,40 @@
+//-- Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import '../node_modules/bootstrap/scss/functions';
+
+//-- Include any default variable overrides here
+
+$primary: #510092;
+$secondary: #ffd824;
+// $text-muted: tint-color($primary, 40%);
+
+// $body-color: $primary;
+$font-family-base: 'Dosis', sans-serif;
+$font-size-base: 1.05rem;
+
+// Navbar overrides
+// $navbar-nav-link-padding-x: 1rem;
+// $navbar-light-color: rgba($primary, 0.55);
+// $navbar-light-hover-color: rgba($primary, 0.8);
+// $navbar-light-active-color: rgba($primary, 0.9);
+
+// $btn-border-width: 3px;
+// $btn-border-radius: 0.35rem;
+// $btn-border-radius-sm: 0.35rem;
+
+// $form-label-margin-bottom: 0.25rem;
+
+// $card-border-width: 0;
+// $border-radius: 0.5rem;
+
+// $blockquote-footer-color: $text-muted;
+
+//-- Include remainder of required Bootstrap stylesheets
+@import '../node_modules/bootstrap/scss/variables';
+@import '../node_modules/bootstrap/scss/mixins';
+
+// $navbar-padding-y: $spacer * 0.8;
+
+//-- Include any optional Bootstrap components as you like
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+//-- Add additional custom code here
